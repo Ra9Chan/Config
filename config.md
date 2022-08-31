@@ -64,3 +64,9 @@
 13. write pseudo-code before writing the actual code(通过伪代码理清思路)
 
 # TO develop a genuine curiosity and passion for understanding how things actuall work(培养真正的热情和好奇心去了解事物的实际运行方式)
+
+1. IDENTIFY 出现 bug
+2. FIND 找到 bug
+3. FIX 修复 bug
+
+## Dom Document Object Model
