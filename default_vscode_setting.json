@@ -1,0 +1,84 @@
+{
+  //editor config
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 21,
+  "editor.wordWrap": "on", //自动换行
+  "editor.cursorBlinking": "phase",
+  "editor.formatOnSave": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "bottom",
+  "editor.renderWhitespace": "all",
+  //workbench config
+  "workbench.colorTheme": "Tinacious Design",
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu-22.04 (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu-22.04"
+      ]
+    }
+  },
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
+  "terminal.integrated.fontFamily": "monospace",
+  "sync.gist": "dea9876398a83e4e3b1232b6b96f2efb",
+  "sync.autoUpload": true,
+  "sync.autoDownload": true,
+  "diffEditor.wordWrap": "on",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "git.autofetch": true,
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "files.autoSaveDelay": 500,
+  "files.autoSave": "afterDelay",
+  "git.openRepositoryInParentFolders": "never",
+  "scss.lint.important": "warning",
+  "css.lint.important": "warning",
+  "debug.toolBarLocation": "docked",
+  //TODO config
+  "todohighlight.isEnable": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}
